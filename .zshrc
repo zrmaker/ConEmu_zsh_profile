@@ -18,7 +18,7 @@ plugins=(
   zsh-autosuggestions
 )
 
-source $ZSH/oh-my-zsh.sh
+source $ZSH/oh-my-zsh.sh 
 # export MANPATH="/usr/local/man:$MANPATH"
 export LANG=en_US.UTF-8
 # export ARCHFLAGS="-arch x86_64"
@@ -33,7 +33,7 @@ SPACESHIP_GIT_BRANCH_COLOR=blue
 
 bindkey '\e[H' beginning-of-line
 bindkey '\e[F' end-of-line
-   
+
 export PATH=$PATH:/mnt/c/Program\ Files/Sublime\ Text\ 3/
 alias subl="sublime_text.exe"
 export EDITOR='code'

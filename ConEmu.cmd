@@ -42,5 +42,4 @@ rem Set new prompt
 PROMPT %ConEmuPrompt1%%ConEmuPrompt2%%ConEmuPrompt3%
 
 doskey home = cd %HOMEPATH%
-doskey netease-cloud-music = "C:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe"
 doskey zsh = bash -c zsh
