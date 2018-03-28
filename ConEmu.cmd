@@ -42,4 +42,6 @@ rem Set new prompt
 PROMPT %ConEmuPrompt1%%ConEmuPrompt2%%ConEmuPrompt3%
 
 doskey home = cd %HOMEPATH%
+doskey programs = cd "C:\Program Files"
+doskey programs86 = cd "C:\Program Files (x86)"
 doskey zsh = bash -c zsh
