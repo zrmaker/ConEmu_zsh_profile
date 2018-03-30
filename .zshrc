@@ -37,3 +37,4 @@ bindkey '\e[F' end-of-line
 export PATH=$PATH:/mnt/c/Program\ Files/Sublime\ Text\ 3/
 alias subl="sublime_text.exe"
 export EDITOR='code'
+
