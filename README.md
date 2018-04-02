@@ -1,7 +1,13 @@
 # Customized ConEmu environment for Windows subsystem Linux Ubuntu/zsh
-Good for working on zsh under Windows using ConEmu
+Good for working on zsh under Windows using ConEmu.
+
 Optional Changes are used by myself, which may not useful for you.
+
+Sample image:
+![alt text](./sample.jpg)
+
 ***
+## Install instructions:
 1. Install [ConEmu](https://conemu.github.io/)
 2. Run CMD in Administrator mode
 3. Install fonts in root folder using `install_fonts.cmd`
