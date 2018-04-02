@@ -16,3 +16,7 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 
 cp -f ./OneDrive/ConEmu/.zshrc ~/.zshrc
 source ~/.zshrc
+
+mkdir translator && cd translator
+wget git.io/trans
+chmod +x ./trans
