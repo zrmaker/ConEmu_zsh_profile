@@ -30,11 +30,16 @@ goto :EOF
 :no_git
 PROMPT %ConEmuPrompt1%%ConEmuPrompt2%%ConEmuPrompt3%
 
+doskey reboot = shutdown /r /t 0
 doskey home = cd %HOMEPATH%
 doskey programs = cd "C:\Program Files"
 doskey programs86 = cd "C:\Program Files (x86)"
+doskey onedrive = cd %HOMEPATH%\OneDrive
 doskey python3 = python
-doskey subltab="C:\Program Files\Sublime Text 3\sublime_text.exe" -new_console:s50H
-doskey codetab="C:\Program Files\Microsoft VS Code\Code.exe" -new_console:s50H
-doskey notepadtab=notepad -new_console:s50H
+doskey geth = "C:\Users\Leo\AppData\Roaming\Ethereum Wallet\binaries\Geth\unpacked\geth.exe"
+doskey ether = "C:\Program Files\Ethereum-Wallet\Ethereum Wallet.exe"
+doskey ethereum = "C:\Program Files\Ethereum-Wallet\Ethereum Wallet.exe"
+doskey subltab = "C:\Program Files\Sublime Text 3\sublime_text.exe" -new_console:s50H
+doskey codetab = "C:\Program Files\Microsoft VS Code\Code.exe" -new_console:s50H
+doskey notepadtab = notepad -new_console:s50H
 doskey zsh = bash -c zsh
