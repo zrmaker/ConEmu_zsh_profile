@@ -5,7 +5,10 @@ sudo apt install zsh
 
 zsh
 zsh --version
+<<<<<<< HEAD
 
+=======
+>>>>>>> e8f1c92d4f39f17bccc2ee575fbd3727ea7813f6
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 chsh -s /bin/zsh
