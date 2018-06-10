@@ -31,6 +31,8 @@ SPACESHIP_TIME_SHOW=true
 SPACESHIP_DIR_COLOR=green
 SPACESHIP_GIT_BRANCH_COLOR=blue
 
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=3'
+
 bindkey '\e[H' beginning-of-line
 bindkey '\e[F' end-of-line
 
@@ -38,4 +40,4 @@ export PATH=$PATH:/mnt/c/Program\ Files/Sublime\ Text\ 3/
 alias subl="sublime_text.exe"
 export EDITOR='code'
 
-source /opt/ros/lunar/setup.zsh
+source /opt/ros/kinetic/setup.zsh
